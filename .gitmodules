@@ -1,0 +1,3 @@
+[submodule "Consulta-Credito-Api"]
+	path = Consulta-Credito-Api
+	url = https://github.com/Trajy/Consulta-Credito-Api.git
