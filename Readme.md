@@ -1,11 +1,8 @@
 # DESAFIO TÉCNICO – DESENVOLVIMENTO DE API DE CONSULTA DE CRÉDITOS
 
-#### Este repositório contêm um sistema de arquitetura simples.
-#
-
 ## Sumário
-- [Motivação](#motivação)
-- [Executar o Projeto](#executar-o-projeto)
+  - [Motivação](#motivação)
+  - [Executar o Projeto](#executar-o-projeto)
 
 ## Motivação
 
@@ -19,11 +16,18 @@ Configurar um ambiente de desenvolvimento utilizando containers Docker e aplicar
 
 - Mensageria: utilizar serviço de processamento de filas (Kafka) para executar tarefas assincronas.
 
+Foi desenvolvido um modelo de sistema simples, conforme o diagrama.
+
+>[!NOTE] 
+Para fins demonstrativos o Producer e o Consumer do serviço de mensageria estão na mesma api.
+
+![image](./docs/img/Simple%20Architecture.jpeg)
+
 
 ## Executar o Projeto
 
 O sistema foi desenvolvido utilizando arquitetura de containers.
-> [!IMPORTANT]
+>[!IMPORTANT]
  certifique-se de possuir o [Docker Compose](https://docs.docker.com/compose/) instalado para executar o projeto. 
  
 O arquivo[`docker-compose.yml`](./docker-compose.yml) contem todas as declações e configurações necessarias para as aplicações.
