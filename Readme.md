@@ -1,8 +1,18 @@
 # DESAFIO TÉCNICO – DESENVOLVIMENTO DE API DE CONSULTA DE CRÉDITOS
 
 ## Sumário
+  - [Git Submodules](#git-submodules)
   - [Motivação](#motivação)
   - [Executar o Projeto](#executar-o-projeto)
+
+## Git Submodules
+A fim de manter uma maior organização na estrutura do projeto o frontend e o backend foram divididos em submodulos (outros repositórios) mantendo o código de cada aplicação em seu respectivo repositorio. Esta documentação possui as motivações e instruções para execução do ambiente para o sistema. Para mais detalhes sobre as implementações do frontend e backend vide as documentações
+
+- Frontend: [Consulta Crédito Web](https://github.com/Trajy/Consulta-Credito-Web)
+- Backend: [Consulta Crédito Api](https://github.com/Trajy/Consulta-Credito-Api)
+
+> [!IMPORTANT]
+> Ao baixar este repositório os submodulos serão baixados automaticamente.
 
 ## Motivação
 
